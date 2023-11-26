@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Book list</h1>
+  
+    <div class="input-section">
+      <input type="text" id="title" placeholder="Title">
+      <input type="text" id="author" placeholder="Author">
+      <input type="text" id="color" placeholder="Color">
+      
+      <div class="radio-buttons">
+        <label><input type="radio" name="type" value="Phsycology">Phsycology</label>
+        <label><input type="radio" name="type" value="Drama">Drama</label>
+        <label><input type="radio" name="type" value="Motivation">Motivation</label>
+      </div>
+      
+      <button id="addButton" disabled>Add Book</button>
+    </div>
+    
+    <table id="bookTable">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody id="bookList">
+      </tbody>
+    </table>
+  
+    <script src="mybook.js"></script>
+</body>
+</html>
